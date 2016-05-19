@@ -6,13 +6,8 @@ section {
 }
 
 .aia_logo{
-  margin-top: 10vh;
-  height: 40vh;
-}
-
-.aia_text {
-  height: 50vh;
-  overflow: scroll;
+  margin-top: 20vh;
+  height: 30vh;
 }
 
 .aia_text > p {
