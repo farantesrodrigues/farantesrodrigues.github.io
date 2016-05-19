@@ -2,11 +2,8 @@
 
 // Declare app level module which depends on views, and components
 angular.module('aia', [
-  'ngRoute',
-  'aia.view1',
-  'aia.view2',
-  'aia.version'
+  'aia.splash'
 ]).
-config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/view1'});
+config(['$urlRouterProvider', function($urlRouterProvider) {
+  $urlRouterProvider.otherwise('/');
 }]);
