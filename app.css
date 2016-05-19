@@ -17,6 +17,7 @@ section {
 .aia_text :first-child {
   margin-top: 15vh;
   margin-bottom: 5vh;
+  opacity: 0.5;
 }
 
 .aia_text :nth-child(2) {
